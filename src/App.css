@@ -3,9 +3,12 @@
   z-index: 1;
 }
 
+/* Nav */
+
 .brandTitle {
   color: #fff;
-  font-weight: 600;
+  font-weight: 800;
+  font-size: 2rem;
 }
 
 .brandMenu {

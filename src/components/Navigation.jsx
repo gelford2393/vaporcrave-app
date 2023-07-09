@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
 import { TITLE, navMenu } from "../config/navMenu.js";
-import brandLogo from "../assets/LOGO.png";
+import brandLogo from "../assets/LOGO2.png";
 
 const Navigation = () => {
   return (
@@ -13,8 +13,8 @@ const Navigation = () => {
       <Container>
         <Navbar.Brand as={Link} to={"/"}>
           <div className="brandTitle">
-            <span  className="brand-logo">
-              <Image src={brandLogo} alt="BrandLogo" height="75px" />
+            <span id="brand-logo">
+              <Image src={brandLogo} alt="BrandLogo" height="100px" />
             </span>
             {TITLE}
           </div>
