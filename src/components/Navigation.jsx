@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
-import { TITLE, navMenu } from "../config/navMenu.js";
+import { TITLE, navMenu } from "../config/config.js";
 import brandLogo from "../assets/LOGO2.png";
 
 const Navigation = () => {
